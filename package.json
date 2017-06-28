@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-player": "^0.18.0",
+    "youtube-embed-video": "^1.0.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
