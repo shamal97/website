@@ -1,14 +1,18 @@
 import React from 'react';
 // import ReactDOM from "react-dom";
-import logo from './temp.png';
+import logo from './me.png';
+import Demo from './Demo';
 import './App.css';
 
 var App = React.createClass({
   getInitialState: function() {
     return { showDemos : false };
   },
-  clickDemoButton: function() {
-    this.setState({ showDemos : true })
+  toggleDemos: function() {
+    this.setState({showDemos: !this.state.showDemos})
+  },
+  loadResume() {
+    window.open('ScottHamal.pdf', '_blank')
   },
   render: function(){
     return (
@@ -19,32 +23,21 @@ var App = React.createClass({
             <img src={logo} className="App-logo" alt="logo" />
           </div>
 
-          <p>woooooga oogas ipsum dolor sit amet, consectetur adipiscing elit.
-          Maecenas et arcu mattis, dictum arcu rutrum, finibus dolor.
-          Nam dapibus gravida ipsum non placerat. Duis at metus a ante
-          finibus fermentum a non augue.</p>
+          <p>Hi, Im Scott. This is my website. I want to get a cool job one day. Hopefully this helps.</p>
 
         </div>
         <div className="Buttons">
-          <button onClick={this.clickDemoButton}>Demos</button>
+          <button onClick={this.toggleDemos}>Demos</button>
           <button onClick={this.loadResume}>Resume</button>
         </div>
 
-         { this.state.showDemos ? <Demo /> : null }
-
+        <div className="Demos">
+          { this.state.showDemos ? <Demo /> : null }
+        </div>
        </div>
       )
   }
-
 });
-
-var Demo = React.createClass({
-  render: function(){
-    return(
-    <iframe align="right" width="560" height="315" src="https://www.youtube.com/embed/lIAgVkB7Yc4?ecver=1" frameborder="0" allowfullscreen></iframe>
-  )}
-});
-
 
 
 export default App;

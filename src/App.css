@@ -22,6 +22,11 @@
   justify-content: space-between;
 }
 
+.Demos {
+  padding: 50px;
+}
+
+
 .App-intro {
   font-size: large;
 }
@@ -76,7 +81,7 @@ body {
     /*background-image: linear-gradient(
       hsla(0, 0%, 0%, 0.6),
       transparent;
-    */  
+    */
 }
 
 body {
