@@ -11,7 +11,7 @@ var App = React.createClass({
   toggleDemos: function() {
     this.setState({showDemos: !this.state.showDemos})
   },
-  loadResume() {
+  loadResume() {  
     window.open('ScottHamal.pdf', '_blank')
   },
   render: function(){
