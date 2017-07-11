@@ -11,7 +11,7 @@ var App = React.createClass({
   toggleDemos: function() {
     this.setState({showDemos: !this.state.showDemos})
   },
-  loadResume() {  
+  loadResume() {
     window.open('ScottHamal.pdf', '_blank')
   },
   render: function(){
@@ -20,7 +20,7 @@ var App = React.createClass({
         <div className="App-header">
 
           <div className="Headshot">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={logo} className="App-logo" alt="logo"  />
           </div>
 
           <p>Hi, Im Scott. This is my website. I want to get a cool job one day. Hopefully this helps.</p>
