@@ -4,26 +4,28 @@
 
 .App-logo {
   animation: App-logo-spin infinite 3s ease-in-out;
-  height: 130px;
-  padding: 10px;
+  height: 8.125em;
+  padding: .625em;
 }
 
 .App-header {
   position: relative;
-  top: 50px;
-  border-radius: 10px;
+  top: 3.125em;
+  border-radius: .8em;
   background-color: white;
-  max-width: 500px;
+  max-width: 31.25em;
   border: 0px solid #328BC1;
-  height: 150px;
-  padding: 25px;
+  height: 9.375em;
+  padding: 1.563em;
   color: #FF00FF;
   display: inline-flex;
   justify-content: space-between;
 }
 
 .Demos {
-  padding: 50px;
+  height: 50em;
+  width: 90%;
+  padding: 5%;
 }
 
 
@@ -42,28 +44,28 @@ button {
     font-family: "Optima";
     background-color: white;
     border: 0px solid #328BC1;
-    border-radius: 5px;
+    border-radius: .313em;
     color: black;
-    padding: 15px 32px;
+    padding: .938em 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 20px;
+    font-size: 1em;
+    margin: 1.25em;
     position: relative;
-    top: 50px;
+    top: 3.125em;
 }
 
 button:hover{
-  box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 .625em 1.25em 0 rgba(0,0,0,0.05);
 }
 
 
 p {
     font-family: "Optima";
     color: black;
-    font-size:15px;
-    padding: 10px;
+    font-size:.938em;
+    padding: .625em;
 }
 
 html {
