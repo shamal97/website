@@ -14,6 +14,9 @@ var App = React.createClass({
   loadResume() {
     window.open('ScottHamal.pdf', '_blank')
   },
+  loadGithub() {
+    window.location.href = 'http://www.github.com/shamal97';
+  },
   render: function(){
     return (
       <div className="App">
@@ -23,12 +26,13 @@ var App = React.createClass({
             <img src={logo} className="App-logo" alt="logo"  />
           </div>
 
-          <p>Hi, Im Scott. I like making cool things with code.</p>
+          <p>Hi, I&#39;m Scott. <br/> <br/> I like to make cool things with code.</p>
 
         </div>
         <div className="Buttons">
-          <button onClick={this.toggleDemos}>Demos</button>
+          <button onClick={this.loadGithub}>GitHub</button>
           <button onClick={this.loadResume}>Resume</button>
+          <button onClick={this.toggleDemos}>Demos</button>
         </div>
 
         <div className="Demos">
