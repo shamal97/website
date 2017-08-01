@@ -5,8 +5,14 @@
 
 .App-logo {
   animation: App-logo-spin infinite 3s ease-in-out;
-  height: 8.125em;
-  padding: .625em;
+  position: relative;
+  height: 90%;
+  margin: 5%;
+  width: auto;
+}
+
+.Headshot {
+  margin-right:8%;
 }
 
 .App-header {
@@ -16,7 +22,7 @@
   max-width: 31.25em;
   border: 0px solid #328BC1;
   height: 9.375em;
-  padding: 1.563em;
+  padding: 1.2em;
   color: #FF00FF;
   display: inline-flex;
   justify-content: space-between;
@@ -67,10 +73,12 @@ button:hover{
 p {
     font-family: "Optima";
     color: black;
-    font-size:1.2em;
-    padding: 1em;
+    font-size:1em;
+    /*padding: .5em;*/
     position:relative;
     text-align: left;
+    /*margin: %;*/
+    /*left: 5%;*/
     top:0%;
 }
 
