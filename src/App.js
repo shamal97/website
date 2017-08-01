@@ -23,7 +23,7 @@ var App = React.createClass({
             <img src={logo} className="App-logo" alt="logo"  />
           </div>
 
-          <p>Hi, Im Scott. This is my website. I want to get a cool job one day. Hopefully this helps.</p>
+          <p>Hi, Im Scott. I like making cool things with code.</p>
 
         </div>
         <div className="Buttons">
