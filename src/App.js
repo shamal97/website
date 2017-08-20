@@ -21,7 +21,6 @@ var App = React.createClass({
     return (
       <div className="App">
         <div className="App-header">
-
           <div className="Headshot">
             <img src={logo} className="App-logo" alt="logo"  />
           </div>

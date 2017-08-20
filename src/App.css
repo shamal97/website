@@ -13,6 +13,8 @@
 
 .Headshot {
   margin-right:8%;
+  position: relative;
+  height: 90%;
 }
 
 .App-header {
