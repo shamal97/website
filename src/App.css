@@ -34,7 +34,7 @@
 .Demos {
   height: auto;
   width: auto;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .Buttons {
@@ -76,11 +76,8 @@ p {
     font-family: "Optima";
     color: black;
     font-size:1em;
-    /*padding: .5em;*/
     position:relative;
     text-align: left;
-    /*margin: %;*/
-    /*left: 5%;*/
     top:0%;
 }
 
@@ -94,12 +91,6 @@ body {
     background-attachment: fixed;
     background-color: #0B3C6A;
     background: linear-gradient(-90deg, #E6F9FF, #B3C6FF);
-
-
-    /*background-image: linear-gradient(
-      hsla(0, 0%, 0%, 0.6),
-      transparent;
-    */
 }
 
 body {
